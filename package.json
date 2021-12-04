@@ -1,0 +1,11 @@
+{
+    "type": "module",
+    "scripts": {
+        "start": "node --loader ts-node/esm/transpile-only.mjs --experimental-specifier-resolution=node upload.ts"
+    },
+    "dependencies": {
+        "@dfinity/agent": "0.10.1",
+        "node-fetch": "3.1.0",
+        "ts-node": "10.4.0"
+    }
+}
